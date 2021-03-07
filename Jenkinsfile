@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    imagename = "whosan3/devops-course"
+    imagename = "rrvamsi/devops-course"
     registryCredential = 'docker-hub'
     dockerImage = ''
   }
@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'git@github.com:whos4n3/devops-course.git', branch: 'master', credentialsId: 'github-ssh-key'])
+        git([url: 'https://github.com/rrvamsidevops/devopsp1.git', branch: 'master', credentialsId: 'github-ssh-key'])
 
       }
     }
