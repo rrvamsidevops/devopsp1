@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    imagename = "rrvamsi/devops-course"
+    imagename = "rrvamsi/devopsp1"
     registryCredential = 'docker-hub'
     dockerImage = ''
   }
