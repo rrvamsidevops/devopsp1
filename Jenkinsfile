@@ -1,7 +1,7 @@
 pipeline {
   environment {
     imagename = "rrvamsi/devopsp1"
-    registryCredential = 'docker-hub'
+    registryCredential = 'Dockerhubaccess'
     dockerImage = ''
   }
   agent any
