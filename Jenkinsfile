@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/rrvamsidevops/devopsp1.git', branch: 'master', credentialsId: 'github-ssh-key'])
+        git([url: 'https://github.com/rrvamsidevops/devopsp1.git', branch: 'main', credentialsId: 'GitrrvamsiAccess'])
 
       }
     }
